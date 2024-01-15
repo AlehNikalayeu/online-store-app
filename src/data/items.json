@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Call of Duty 3",
+    "price": "40$",
+    "imgUrl": "/images/cod-game.avif"
+  },
+
+  {
+    "id": 2,
+    "name": "GTA 5",
+    "price": "50$",
+    "imgUrl": "/images/gta-game.webp"
+  },
+
+  {
+    "id": 3,
+    "name": "NBA 4K 2024",
+    "price": "60$",
+    "imgUrl": "/images/nba-game.avif"
+  }
+]
