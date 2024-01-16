@@ -45,7 +45,6 @@ const Photos = ({searchText}) => {
     }
 
     // фильтрация
-
     const filteredItems = storeItems.filter(item => {
         return item.name.toLowerCase().includes(searchText.toLowerCase())
     })

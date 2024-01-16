@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useContext, useState} from 'react';
 import logo from '../data/playstation-store-logo.jpeg'
 import {
     Button,
@@ -19,10 +19,10 @@ import Blog from "../pages/Blog";
 import {FaShoppingCart} from "react-icons/fa";
 import Cart from "./Cart";
 
+
 const Header = () => {
 
     const [searchText, setSearchText] = useState('');
-
     const [isCartOpen, setIsCartOpen] = useState(false);
 
 
